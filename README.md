@@ -1,11 +1,11 @@
-Stopwords ISO
-=======
+# Stopwords ISO
 
 The most comprehensive collection of stopwords for multiple languages.
 
 The collection follows the ISO 639-1 language code.
 
-If you only need stopwords for a specific language, there is a [separate collection for each](https://github.com/stopwords-iso).
+If you only need stopwords for a specific language,
+there is a [separate collection for each](https://github.com/stopwords-iso).
 
 ## Usage
 
@@ -17,11 +17,11 @@ It is only currently published on [npm](https://www.npmjs.com/stopwords-iso), [b
 ### Node/JavaScript
 
 ```sh
-$ npm install stopwords-iso
+npm install stopwords-iso
 ```
 
 ```sh
-$ bower install stopwords-iso
+bower install stopwords-iso
 ```
 
 ```js
@@ -33,7 +33,7 @@ const english = stopwords.en;  // English stopwords
 ### Python
 
 ```sh
-$ pip install stopwordsiso
+pip install stopwordsiso
 ```
 
 ```python
@@ -67,187 +67,187 @@ the official "language codes list" and is linked to from [www.iso.org](https://w
 
 | ISO 639-1 Code | Language | Included Here |
 | -------------- | -------- | ------------- |
-| aa | Afar |  |
-| ab | Abkhazian |  |
+| aa | Afar | |
+| ab | Abkhazian | |
 | af | Afrikaans | ✓ |
-| ak | Akan |  |
-| sq | Albanian |  |
-| am | Amharic |  |
+| ak | Akan | |
+| sq | Albanian | |
+| am | Amharic | |
 | ar | Arabic | ✓ |
-| an | Aragonese |  |
+| an | Aragonese | |
 | hy | Armenian | ✓ |
-| as | Assamese |  |
-| av | Avaric |  |
-| ae | Avestan |  |
-| ay | Aymara |  |
-| az | Azerbaijani |  |
-| ba | Bashkir |  |
-| bm | Bambara |  |
+| as | Assamese | |
+| av | Avaric | |
+| ae | Avestan | |
+| ay | Aymara | |
+| az | Azerbaijani | |
+| ba | Bashkir | |
+| bm | Bambara | |
 | eu | Basque | ✓ |
-| be | Belarusian |  |
+| be | Belarusian | |
 | bn | Bengali | ✓ |
-| bh | Bihari languages |  |
-| bi | Bislama |  |
-| bo | Tibetan |  |
-| bs | Bosnian |  |
+| bh | Bihari languages | |
+| bi | Bislama | |
+| bo | Tibetan | |
+| bs | Bosnian | |
 | br | Breton | ✓ |
 | bg | Bulgarian | ✓ |
-| my | Burmese |  |
+| my | Burmese | |
 | ca | Catalan; Valencian | ✓ |
 | cs | Czech | ✓ |
-| ch | Chamorro |  |
-| ce | Chechen |  |
+| ch | Chamorro | |
+| ce | Chechen | |
 | zh | Chinese | ✓ |
-| cu | Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic |  |
-| cv | Chuvash |  |
-| kw | Cornish |  |
-| co | Corsican |  |
-| cr | Cree |  |
-| cy | Welsh |  |
+| cu | Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic | |
+| cv | Chuvash | |
+| kw | Cornish | |
+| co | Corsican | |
+| cr | Cree | |
+| cy | Welsh | |
 | da | Danish | ✓ |
 | de | German | ✓ |
-| dv | Divehi; Dhivehi; Maldivian |  |
+| dv | Divehi; Dhivehi; Maldivian | |
 | nl | Dutch; Flemish | ✓ |
-| dz | Dzongkha |  |
+| dz | Dzongkha | |
 | el | Greek, Modern (1453-) | ✓ |
 | en | English | ✓ |
 | eo | Esperanto | ✓ |
 | et | Estonian | ✓ |
-| ee | Ewe |  |
-| fo | Faroese |  |
+| ee | Ewe | |
+| fo | Faroese | |
 | fa | Persian | ✓ |
-| fj | Fijian |  |
+| fj | Fijian | |
 | fi | Finnish | ✓ |
 | fr | French | ✓ |
-| fy | Western Frisian |  |
-| ff | Fulah |  |
-| ka | Georgian |  |
-| gd | Gaelic; Scottish Gaelic |  |
+| fy | Western Frisian | |
+| ff | Fulah | |
+| ka | Georgian | |
+| gd | Gaelic; Scottish Gaelic | |
 | ga | Irish | ✓ |
 | gl | Galician | ✓ |
-| gv | Manx |  |
-| gn | Guarani |  |
+| gv | Manx | |
+| gn | Guarani | |
 | gu | Gujarati | ✓ |
-| ht | Haitian; Haitian Creole |  |
+| ht | Haitian; Haitian Creole | |
 | ha | Hausa | ✓ |
 | he | Hebrew | ✓ |
-| hz | Herero |  |
+| hz | Herero | |
 | hi | Hindi | ✓ |
-| ho | Hiri Motu |  |
+| ho | Hiri Motu | |
 | hr | Croatian | ✓ |
 | hu | Hungarian | ✓ |
-| ig | Igbo |  |
-| is | Icelandic |  |
-| io | Ido |  |
-| ii | Sichuan Yi; Nuosu |  |
-| iu | Inuktitut |  |
-| ie | Interlingue; Occidental |  |
-| ia | Interlingua (International Auxiliary Language Association) |  |
+| ig | Igbo | |
+| is | Icelandic | |
+| io | Ido | |
+| ii | Sichuan Yi; Nuosu | |
+| iu | Inuktitut | |
+| ie | Interlingue; Occidental | |
+| ia | Interlingua (International Auxiliary Language Association) | |
 | id | Indonesian | ✓ |
-| ik | Inupiaq |  |
+| ik | Inupiaq | |
 | it | Italian | ✓ |
-| jv | Javanese |  |
+| jv | Javanese | |
 | ja | Japanese | ✓ |
-| kl | Kalaallisut; Greenlandic |  |
-| kn | Kannada |  |
-| ks | Kashmiri |  |
-| kr | Kanuri |  |
-| kk | Kazakh |  |
-| km | Central Khmer |  |
-| ki | Kikuyu; Gikuyu |  |
-| rw | Kinyarwanda |  |
-| ky | Kirghiz; Kyrgyz |  |
-| kv | Komi |  |
-| kg | Kongo |  |
+| kl | Kalaallisut; Greenlandic | |
+| kn | Kannada | |
+| ks | Kashmiri | |
+| kr | Kanuri | |
+| kk | Kazakh | |
+| km | Central Khmer | |
+| ki | Kikuyu; Gikuyu | |
+| rw | Kinyarwanda | |
+| ky | Kirghiz; Kyrgyz | |
+| kv | Komi | |
+| kg | Kongo | |
 | ko | Korean | ✓ |
-| kj | Kuanyama; Kwanyama |  |
+| kj | Kuanyama; Kwanyama | |
 | ku | Kurdish | ✓ |
-| lo | Lao |  |
+| lo | Lao | |
 | la | Latin | ✓ |
 | lv | Latvian | ✓ |
-| li | Limburgan; Limburger; Limburgish |  |
-| ln | Lingala |  |
+| li | Limburgan; Limburger; Limburgish | |
+| ln | Lingala | |
 | lt | Lithuanian | ✓ |
-| lb | Luxembourgish; Letzeburgesch |  |
-| lu | Luba-Katanga |  |
-| lg | Ganda |  |
-| mk | Macedonian |  |
-| mh | Marshallese |  |
-| ml | Malayalam |  |
-| mi | Maori |  |
+| lb | Luxembourgish; Letzeburgesch | |
+| lu | Luba-Katanga | |
+| lg | Ganda | |
+| mk | Macedonian | |
+| mh | Marshallese | |
+| ml | Malayalam | |
+| mi | Maori | |
 | mr | Marathi | ✓ |
 | ms | Malay | ✓ |
-| mg | Malagasy |  |
-| mt | Maltese |  |
-| mn | Mongolian |  |
-| na | Nauru |  |
-| nv | Navajo; Navaho |  |
-| nr | Ndebele, South; South Ndebele |  |
-| nd | Ndebele, North; North Ndebele |  |
-| ng | Ndonga |  |
-| ne | Nepali |  |
-| nn | Norwegian Nynorsk; Nynorsk, Norwegian |  |
-| nb | Bokmål, Norwegian; Norwegian Bokmål |  |
+| mg | Malagasy | |
+| mt | Maltese | |
+| mn | Mongolian | |
+| na | Nauru | |
+| nv | Navajo; Navaho | |
+| nr | Ndebele, South; South Ndebele | |
+| nd | Ndebele, North; North Ndebele | |
+| ng | Ndonga | |
+| ne | Nepali | |
+| nn | Norwegian Nynorsk; Nynorsk, Norwegian | |
+| nb | Bokmål, Norwegian; Norwegian Bokmål | |
 | no | Norwegian | ✓ |
-| ny | Chichewa; Chewa; Nyanja |  |
-| oc | Occitan (post 1500) |  |
-| oj | Ojibwa |  |
-| or | Oriya |  |
-| om | Oromo |  |
-| os | Ossetian; Ossetic |  |
-| pa | Panjabi; Punjabi |  |
-| pi | Pali |  |
+| ny | Chichewa; Chewa; Nyanja | |
+| oc | Occitan (post 1500) | |
+| oj | Ojibwa | |
+| or | Oriya | |
+| om | Oromo | |
+| os | Ossetian; Ossetic | |
+| pa | Panjabi; Punjabi | |
+| pi | Pali | |
 | pl | Polish | ✓ |
 | pt | Portuguese | ✓ |
-| ps | Pushto; Pashto |  |
-| qu | Quechua |  |
-| rm | Romansh |  |
+| ps | Pushto; Pashto | |
+| qu | Quechua | |
+| rm | Romansh | |
 | ro | Romanian; Moldavian; Moldovan | ✓ |
-| rn | Rundi |  |
+| rn | Rundi | |
 | ru | Russian | ✓ |
-| sg | Sango |  |
-| sa | Sanskrit |  |
-| si | Sinhala; Sinhalese |  |
+| sg | Sango | |
+| sa | Sanskrit | |
+| si | Sinhala; Sinhalese | |
 | sk | Slovak | ✓ |
 | sl | Slovenian | ✓ |
-| se | Northern Sami |  |
-| sm | Samoan |  |
-| sn | Shona |  |
-| sd | Sindhi |  |
+| se | Northern Sami | |
+| sm | Samoan | |
+| sn | Shona | |
+| sd | Sindhi | |
 | so | Somali | ✓ |
 | st | Sotho, Southern | ✓ |
 | es | Spanish; Castilian | ✓ |
-| sc | Sardinian |  |
-| sr | Serbian |  |
-| ss | Swati |  |
-| su | Sundanese |  |
+| sc | Sardinian | |
+| sr | Serbian | |
+| ss | Swati | |
+| su | Sundanese | |
 | sw | Swahili | ✓ |
 | sv | Swedish | ✓ |
-| ty | Tahitian |  |
-| ta | Tamil |  |
-| tt | Tatar |  |
-| te | Telugu |  |
-| tg | Tajik |  |
+| ty | Tahitian | |
+| ta | Tamil | |
+| tt | Tatar | |
+| te | Telugu | |
+| tg | Tajik | |
 | tl | Tagalog | ✓ |
 | th | Thai | ✓ |
-| ti | Tigrinya |  |
-| to | Tonga (Tonga Islands) |  |
-| tn | Tswana |  |
-| ts | Tsonga |  |
-| tk | Turkmen |  |
+| ti | Tigrinya | |
+| to | Tonga (Tonga Islands) | |
+| tn | Tswana | |
+| ts | Tsonga | |
+| tk | Turkmen | |
 | tr | Turkish | ✓ |
-| tw | Twi |  |
-| ug | Uighur; Uyghur |  |
+| tw | Twi | |
+| ug | Uighur; Uyghur | |
 | uk | Ukrainian | ✓ |
 | ur | Urdu | ✓ |
-| uz | Uzbek |  |
-| ve | Venda |  |
+| uz | Uzbek | |
+| ve | Venda | |
 | vi | Vietnamese | ✓ |
-| vo | Volapük |  |
-| wa | Walloon |  |
-| wo | Wolof |  |
-| xh | Xhosa |  |
-| yi | Yiddish |  |
+| vo | Volapük | |
+| wa | Walloon | |
+| wo | Wolof | |
+| xh | Xhosa | |
+| yi | Yiddish | |
 | yo | Yoruba | ✓ |
-| za | Zhuang; Chuang |  |
+| za | Zhuang; Chuang | |
 | zu | Zulu | ✓ |
