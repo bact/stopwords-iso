@@ -1,5 +1,8 @@
 # stopwordsiso
 
+[![PyPI - Version](https://img.shields.io/pypi/v/stopwordsiso)](https://pypi.org/project/stopwordsiso/)
+![GitHub License](https://img.shields.io/github/license/stopwords-iso/stopwords-iso)
+
 Collection of stopwords for multiple languages, using ISO 639-1 language code.
 
 This Python package is based on [Stopwords ISO][stopwords-iso] project by
