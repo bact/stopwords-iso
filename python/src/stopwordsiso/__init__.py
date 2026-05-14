@@ -9,7 +9,7 @@ Stopwords are retrieved by ISO 639-1 language code::
 
     import stopwordsiso
 
-    stopwordsiso.has_lang("th")      # True – Thai is supported
+    stopwordsiso.has_lang("th")      # True - Thai is supported
     stopwordsiso.langs()             # frozenset of all supported codes
     stopwordsiso.stopwords("en")     # set of English stopwords
     stopwordsiso.stopwords(["de", "id", "zh"])  # combined stopwords
