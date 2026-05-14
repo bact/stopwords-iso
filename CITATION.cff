@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: "Stopwords ISO"
+type: software
+authors:
+  - given-names: Gene
+    family-names: Diaz
+  - given-names: Arthit
+    family-names: Suriyawongkul
+    affiliation: Wisesight
+    orcid: "https://orcid.org/0000-0002-9698-1899"
+repository-code: "https://github.com/bact/stopwords-iso.git"
+url: "https://pypi.org/project/stopwordsiso/"
+abstract: >-
+  A Python library providing curated stopword lists across 
+  multiple languages. Useful for natural language processing 
+  tasks, specifically text cleaning, preprocessing, and tokenization.
+keywords:
+  - stopwords
+  - linguistics
+  - natural language processing
+  - text preprocessing
+  - tokenization
+license: MIT
+version: 0.7.0
+date-released: "2026-05-14"
