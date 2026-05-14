@@ -26,8 +26,8 @@ classifiers = [
 requires-python = ">=3.10"
 
 [project.urls]
-Homepage = "https://github.com/bact/stopwordsiso"
-Repository = "https://github.com/bact/stopwordsiso"
+Homepage = "https://github.com/bact/stopwords-iso"
+Repository = "https://github.com/bact/stopwords-iso"
 
 [tool.hatch.build.targets.sdist]
 include = ["src/stopwordsiso/", "README.md"]
