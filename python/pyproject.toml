@@ -11,9 +11,9 @@ license = "MIT"
 authors = [{ name = "Arthit Suriyawongkul", email = "arthit@gmail.com" }]
 keywords = ["stopwords", "language", "nlp", "text-processing"]
 classifiers = [
-    "Development Status :: 3 - Alpha",
+    "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Science/Research",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",

@@ -32,7 +32,7 @@ class ISO6391TableParser(HTMLParser):
         """Return a mapping of ISO 639-1 code to language name."""
         return {
             code: name
-            for code, name in zip(self._codes, self._names)
+            for code, name in zip(self._codes, self._names, strict=False)
             if code.isalpha() and code.islower()
         }
 

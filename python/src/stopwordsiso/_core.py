@@ -1,7 +1,7 @@
 # SPDX-FileContributor: Arthit Suriyawongkul
 # SPDX-FileCopyrightText: 2018-present Arthit Suriyawongkul
 # SPDX-FileType: SOURCE
-# SPDX-License-Identifier: Apache-2.0
+# SPDX-License-Identifier: MIT
 
 """Core implementation for stopwordsiso.
 
@@ -12,12 +12,11 @@ import json
 from collections.abc import Iterable
 from importlib.resources import files
 
-_raw: str = (
-    files("stopwordsiso").joinpath("stopwords-iso.json").read_text(encoding="utf-8")
-)
-
 # Mapping from ISO 639-1 language code to list of stopwords.
-_STOPWORDS_ALL: dict[str, list[str]] = json.loads(_raw)
+_data_file = files("stopwordsiso").joinpath("stopwords-iso.json")
+_text = _data_file.read_text(encoding="utf-8")
+_STOPWORDS_ALL: dict[str, list[str]] = json.loads(_text)
+del _data_file, _text
 
 # Frozenset of all supported language codes.
 _LANGS: frozenset[str] = frozenset(_STOPWORDS_ALL.keys())
