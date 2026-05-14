@@ -1,0 +1,52 @@
+# SPDX-FileCopyrightText: 2026-present Arthit Suriyawongkul
+# SPDX-License-Identifier: MIT
+
+name: Unit tests
+
+on:
+  push:
+    branches: [ master ]
+    paths:
+      - "python/**/*.py"
+      - "python/pyproject.toml"
+      - "python/src/stopwordsiso/stopwords-iso.json"
+      - ".github/workflows/test.yml"
+  pull_request:
+    branches: [ master ]
+    paths:
+      - "python/**/*.py"
+      - "python/pyproject.toml"
+      - "python/src/stopwordsiso/stopwords-iso.json"
+      - ".github/workflows/test.yml"
+
+jobs:
+  test:
+    name: Test on Python ${{ matrix.python-version }}
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [ "3.10", "3.14" ]
+      fail-fast: true
+    env:
+      MAIN_SUPPORT_VERSION: "3.10"
+    defaults:
+      run:
+        shell: bash
+        working-directory: python
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v6
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install .
+
+      - name: Run tests
+        run: |
+          python -m unittest

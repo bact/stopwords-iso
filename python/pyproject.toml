@@ -1,0 +1,57 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "stopwordsiso"
+version = "0.7.0"
+description = "Collection of stopwords for multiple languages, using ISO 639-1 language code."
+readme = "README.md"
+license = "MIT"
+authors = [{ name = "Arthit Suriyawongkul", email = "arthit@gmail.com" }]
+keywords = ["stopwords", "language", "nlp", "text-processing"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Text Processing :: Linguistic",
+    "Typing :: Typed",
+]
+requires-python = ">=3.10"
+
+[project.urls]
+Homepage = "https://github.com/bact/stopwords-iso"
+Repository = "https://github.com/bact/stopwords-iso"
+
+[tool.hatch.build.targets.sdist]
+include = ["src/stopwordsiso/", "README.md"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/stopwordsiso"]
+
+[tool.mypy]
+python_version = "3.10"
+strict = true
+warn_return_any = true
+warn_unused_configs = true
+
+[tool.pylint.main]
+py-version = "3.10"
+
+[tool.pylint."messages control"]
+# C0301 line-too-long      - enforced by ruff
+# W0511 fixme              - intentional TODOs are fine
+disable = ["C0301", "W0511"]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "N", "UP", "B", "C4", "RUF"]
