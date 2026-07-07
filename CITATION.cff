@@ -10,6 +10,7 @@ authors:
     orcid: "https://orcid.org/0000-0002-9698-1899"
 repository-code: "https://github.com/bact/stopwords-iso.git"
 url: "https://pypi.org/project/stopwordsiso/"
+doi: 10.5281/zenodo.20189856
 abstract: >-
   A Python library providing curated stopword lists across 
   multiple languages. Useful for natural language processing 
