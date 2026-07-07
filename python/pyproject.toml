@@ -1,10 +1,10 @@
 [build-system]
-requires = ["hatchling"]
+requires = ["hatchling>=1.28.0", "pitloom>=0.9.0"]
 build-backend = "hatchling.build"
 
 [project]
 name = "stopwordsiso"
-version = "0.7.0"
+version = "0.7.1"
 description = "Collection of stopwords for multiple languages, using ISO 639-1 language code."
 readme = "README.md"
 license = "MIT"
@@ -26,8 +26,13 @@ classifiers = [
 requires-python = ">=3.10"
 
 [project.urls]
-Homepage = "https://github.com/bact/stopwords-iso"
-Repository = "https://github.com/bact/stopwords-iso"
+homepage = "https://github.com/bact/stopwords-iso"
+source = "https://github.com/bact/stopwords-iso.git"
+download = "https://github.com/bact/stopwords-iso/releases"
+releasenotes = "https://github.com/bact/stopwords-iso/releases"
+
+[tool.hatch.build.hooks.pitloom]
+creator-name = "Arthit Suriyawongkul"
 
 [tool.hatch.build.targets.sdist]
 include = ["src/stopwordsiso/", "README.md"]
