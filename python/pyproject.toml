@@ -1,5 +1,5 @@
 [build-system]
-requires = ["hatchling>=1.28.0", "pitloom>=0.9.0"]
+requires = ["hatchling>=1.28.0", "pitloom>=0.12.0"]
 build-backend = "hatchling.build"
 
 [project]
@@ -32,7 +32,9 @@ download = "https://github.com/bact/stopwords-iso/releases"
 releasenotes = "https://github.com/bact/stopwords-iso/releases"
 
 [tool.hatch.build.hooks.pitloom]
-creator-name = "Arthit Suriyawongkul"
+
+[[tool.pitloom.creator]]
+name = "Arthit Suriyawongkul"
 
 [tool.hatch.build.targets.sdist]
 include = ["src/stopwordsiso/", "README.md"]
